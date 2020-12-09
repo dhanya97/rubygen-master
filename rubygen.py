@@ -168,7 +168,7 @@ def list3(BIP39):
     list1 = [BIP39[random.randrange(len(BIP39))]
              for item in range(int(a))]
     list2 = ' '.join(list1)
-    print  'Recovery phrase: ' + str(list2)
+    print  ('Recovery phrase: ' + str(list2))
     return str(list2)
 
 
